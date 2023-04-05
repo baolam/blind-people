@@ -1,0 +1,6 @@
+CAM_HEIGHT = 500
+CAM_WIDTH = 500
+NAMESPACE = "/"
+MAX_SEN = 100
+END = "hết"
+SOUND_PATH = "./src/sound"
