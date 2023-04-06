@@ -35,17 +35,14 @@ class Page():
         _res = [sentences]
         for char in Page.FILTER:
             _res = self.__char(_res, char)
-        res = []
-        for j in _res:
-            if j != '':
-                res.append(j)
-        return res
+        return _res
 
     def __char(self, sentences : List[str], char : str):
         r = []
         for sentence in sentences:
             for _sentence in sentence.split(char):
-                r.append(_sentence)
+                if _sentence != '' and _sentence != ' ':
+                    r.append(_sentence)
         return r
 
 class Book():

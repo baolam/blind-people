@@ -109,7 +109,7 @@ class Manage:
             log("Cập nhật trang")
             self.page_num += 1
             self.paragraph_num = 1
-        elif self.page_num == m:
+        elif self.page_num >= m:
             log("Hoàn thành")
             self.end_book = True
         

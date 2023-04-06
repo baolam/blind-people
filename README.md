@@ -20,3 +20,7 @@ Hệ thống đọc sách cho người khiếm thị
         * Tổ chức và xây dựng bộ sách điện tử
         * Giao tiếp giữa server và thiết bị
         * Thiết kế giao diện cho người quản lí sách điện tử (xây dựng cộng đồng)
+Một số thuật toán được dùng
+- File PDF
+    + Sử dụng thuật toán tách đoạn
+    + Bài toán đồng bộ khi xây dựng file đọc

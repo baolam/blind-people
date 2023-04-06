@@ -1,1 +1,3 @@
 pip freeze > requirements.txt
+https://www.google.com/search?q=pdf+detect+paragraph+python&rlz=1C1VDKB_enVN1046VN1046&oq=pdf+detect+paragraph+python&aqs=chrome..69i57j33i160j33i22i29i30.11216j0j7&sourceid=chrome&ie=UTF-8
+https://pypdf2.readthedocs.io/_/downloads/en/latest/pdf/
